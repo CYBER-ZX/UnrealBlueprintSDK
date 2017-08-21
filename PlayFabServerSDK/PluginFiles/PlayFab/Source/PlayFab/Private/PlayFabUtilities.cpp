@@ -353,6 +353,8 @@ FString UPlayFabUtilities::getErrorText(int32 code)
     case 1327: returnText = "AuthTokenDoesNotExist"; break;
     case 1328: returnText = "AuthTokenExpired"; break;
     case 1329: returnText = "AuthTokenAlreadyUsedToResetPassword"; break;
+    case 1330: returnText = "MembershipNameTooLong"; break;
+    case 1331: returnText = "MembershipNotFound"; break;
     }
 
     // Return the text
